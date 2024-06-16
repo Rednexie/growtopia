@@ -46,6 +46,7 @@ cons row = db.prepare('SELECT * FROM growtopia WHERE name = ?').get(your_world_n
 
 console.log(
 // returns { name: 'turk', status: 1 }
+
 ```
 
 In terminal:
