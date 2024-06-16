@@ -23,3 +23,63 @@ Means that world is not banned and its already created.
 | vaxt | 0 |
 
 Means that world is banned or not yet created.
+
+### Usage
+
+*Javascript* 
+
+
+In terminal:
+
+```bash
+npm install better-sqlite3
+```
+
+index.js
+
+```js
+const Database = require('better-sqlite3')
+const db = new Database('./growtopia.sqlite')
+
+const your_name = 'turk' // The world you want to check
+cons row = db.prepare('SELECT * FROM growtopia WHERE name = ?').get(your_world_name);
+
+console.log(
+// returns { name: 'turk', status: 1 }
+```
+
+In terminal:
+
+```bash
+node index.js```
+
+------
+
+*Python*
+
+
+In terminal:
+```bash
+pip install sqlite3
+```
+
+main.py
+
+```python
+import sqlite3
+
+database = sqlite3.connect('./growtopia.sqlite')
+cursor = database.cursor()
+
+your_name = 'turk' # The world you want to check
+
+cursor.execute('SELECT id, name, email FROM users')
+
+rows = cursor.fetchall()
+
+print(rows)
+# returns ("turk", 1)
+
+
+
+
