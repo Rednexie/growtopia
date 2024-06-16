@@ -53,7 +53,7 @@ In terminal:
 ```bash
 node index.js```
 
-------
+---
 
 *Python*
 
