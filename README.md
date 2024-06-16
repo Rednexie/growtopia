@@ -12,6 +12,7 @@ SQLite Database of Growtopia World Names
 
 ### Example
 | name | status    |
+|------|-----------|
 | xvqw | 1 |
 
 Means that world is not banned and its already created.
