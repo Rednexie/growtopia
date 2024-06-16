@@ -6,5 +6,5 @@ SQLite Database of Growtopia World Names
 
 |   |
 |---|
-|   |
+| db |
 |---|
