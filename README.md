@@ -26,10 +26,10 @@ Means that world is banned or not yet created.
 
 ### Usage
 
-*Javascript* 
+*Javascript(Node.js)* 
 
 
-In terminal:
+In terminal to install the required library:
 
 ```bash
 npm install better-sqlite3
@@ -49,7 +49,7 @@ console.log(
 
 ```
 
-In terminal:
+In terminal to run the file:
 
 ```bash
 node index.js
@@ -60,7 +60,7 @@ node index.js
 *Python*
 
 
-In terminal:
+In terminal to install the required library:
 ```bash
 pip install sqlite3
 ```
@@ -84,7 +84,7 @@ print(row)
 
 ```
 
-In terminal:
+In terminal to run the file:
 
 
 ```bash
