@@ -75,7 +75,7 @@ cursor = database.cursor()
 
 your_name = 'turk' # The world you want to check
 
-cursor.execute('SELECT id, name, email FROM users')
+cursor.execute('SELECT * FROM growtopia WHERE name = ?', (your_name))
 
 row = cursor.fetchone()
 
