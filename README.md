@@ -80,6 +80,11 @@ rows = cursor.fetchall()
 print(rows)
 # returns ("turk", 1)
 
+In terminal:
 
+
+```bash
+python main.py
+```
 
 
