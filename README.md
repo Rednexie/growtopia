@@ -77,9 +77,9 @@ your_name = 'turk' # The world you want to check
 
 cursor.execute('SELECT id, name, email FROM users')
 
-rows = cursor.fetchall()
+row = cursor.fetchone()
 
-print(rows)
+print(row)
 # returns ("turk", 1)
 
 ```
