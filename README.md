@@ -18,4 +18,8 @@ SQLite Database of Growtopia World Names
 Means that world is not banned and its already created.
 
 
+| name | status    |
+|------|-----------|
+| vaxt | 0 |
 
+Means that world is banned or not yet created.
