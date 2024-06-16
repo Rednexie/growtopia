@@ -52,7 +52,8 @@ console.log(
 In terminal:
 
 ```bash
-node index.js```
+node index.js
+```
 
 ---
 
